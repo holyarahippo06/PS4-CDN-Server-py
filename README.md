@@ -41,8 +41,8 @@ It features a user-friendly web interface to view your library, manage server se
 
 1.  **Clone the Repository:**
     ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/holyarahippo06/PS4-CDN-Server-py.git
+    cd PS4-CDN-Server-py
     ```
 
 2.  **Set up a Python Virtual Environment:**
@@ -68,12 +68,12 @@ You can run the server using the provided startup scripts. These will activate t
 
 *   On Windows:
     ```bash
-    .\start_server.bat
+    .\src\start_server.bat
     ```
 *   On macOS/Linux:
     ```bash
-    chmod +x start_server.sh
-    ./start_server.sh
+    chmod +x ./src/start_server.sh
+    ./src/start_server.sh
     ```
 
 The server will be accessible at `http://0.0.0.0:8000` by default. Open this address in your web browser.
