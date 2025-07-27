@@ -25,7 +25,7 @@ server_state = {
     "packages": [],
     # --- MODIFIED: Default config structure ---
     "config": {
-        "base_path": "Z:\\PS4Games\\pkgs", # Default, will be overridden by config.json
+        "base_path": "", # Default, will be overridden by config.json
         "ps4_ip": "",
         "ps4_port": 2121
     },
