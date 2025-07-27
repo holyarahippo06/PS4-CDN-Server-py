@@ -1,4 +1,4 @@
-# PS4 Local CDN & Library Manager
+# PS4 CDN Server py
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
