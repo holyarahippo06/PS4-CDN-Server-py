@@ -118,7 +118,6 @@ async def save_config_endpoint(config_data: ConfigUpdateRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Failed to save configuration: {e}")
 
-# ... (The rest of your endpoints: get_all_packages, get_hb_store_db, etc. remain unchanged) ...
 @app.get("/api/packages")
 async def get_all_packages():
     return JSONResponse(content=server_state["packages"])
