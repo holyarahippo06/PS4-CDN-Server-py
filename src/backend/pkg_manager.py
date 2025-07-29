@@ -7,6 +7,7 @@ from . import ps4_pkg_info, pkg_parser, hb_formatter, pss_scraper
 # --- THE NEW, SIMPLER ALIAS SYSTEM ---
 # The KEY is the EXACT, RAW title from the SFO as seen in the server logs.
 # The VALUE is the precise search term you want to use instead.
+# EXAMPLES: "Raw Name" (provided by pkg): "Alias" (Name in Playstation Store)
 RAW_TITLE_ALIASES = {
     "HITMAN 3": "HITMAN World of Assassination",
     "Minecraft: PlayStation®4 Edition": "Minecraft",
